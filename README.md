@@ -1,65 +1,81 @@
-“Grt”白皮书
-项目由顶尖区块链技术研发组Grt团队实力打造，Grt在BSC智能链上开发,为DeFi、NFT、GameFi应用服务的代币。
-Grt币初始发行2000万枚，GRT认购结束交易所上市交易后，Grt项目组解散，项目完全去中心化运营，DAO治理将成为唯一的去中心化自治社群组织组织。
-GRT 的设计目标：成为有价值的应用代币
-GRT是由顶尖区块链技术研发组Grt团队实力打造，Grt在BSC智能链上开发,为DeFi、NFT、GameFi应用服务的代币。
-项目：
-Grt代币：以在BSC智能链上开发代币。可以在TokenPocket、imToken等钱包自由转入转出、币币转换。
-GRT代币项目完全去中心化，在PancakeSwap交易所上市交易。
-当GRT代币市值100USDT时，项目组将自动放弃合约所有权。
-智能合约
-智能合约是 1994 年由密码学家尼克萨博（Nick Szabo）最先提出的理念，几乎与互联网同龄。根据 Nick Szabo 的定义：当一个预先编好的条件被触发时，智能合约执行相应的合同条款。区块链技术给我们带来了一个去中心化的，不可篡改的，高可靠性的系统。自比特币诞生后，人们认识到比特币的底层技术区块链天生可以为智能合约提供可信的执行环境，以太坊首先看到了区块链和智能合约的契合，发布了白皮书《以太坊：下一代智能合约和去中心化应用平台》。
-ERC-20最初作为一种尝试，旨在为以太坊（Ethereum）上的token合约提供一个特征与接口的共同标准，并且，它现在已经被证明是非常成功的了。ERC-20有很多好处，包括允许钱包显示数以百计不同token的账户余额；创建一个交易工具，只需提供token合约的地址就可以将更多token列入表中。GRTContract 是GRT具备ERC-20 独立的智能合约体系。
-项目技术团队：
-首席执行官CEO：Chris Wright，美国密领域的知名专家，也是全球20家顶级的区块链公司DACC项目的团队负责人。他是一名出色的首席执行官，具备很强的组建、管理团队的能力。2015年在加拿大、俄罗斯、马来西亚建立了超万台矿场及区块链研发中心。2017年技术团队与第一区块链资本投资集团进行全球战略合作，致力于打造全球区块链医疗美容、移民地产旅游、全球购支付、应用平台。
-此外， Grt项目技术团队主要成员还包括：
-Brian Bondy：BAT项目联合创始人&浏览器首席工程师，先前从事KhanAcademy,Mozilla,Ecernotete研发。
-Alexey Kalina：资深全栈工程师，曾为多种加密数字货币开发SPV代码库，并且为50家以上数字货币交易所提供过API开发及市场数据分析服务。
-Paul Sokolov:资深的区块链产品经理和技术负责人，曾经主导开发著名的Changelley,他还主导过Guarda,以及开发了Chainthis.com。
-Alexandr Dorozhkin：资深后端开发工程师，为多个区块链产品开发了网页钱包和区块链浏览器。
-Khal Achkar：拥有计算机工程学士学位和管理硕士学位，19年工作经验。Andrew Wasylewicz,4年的比特币和区块链从业经验。
-应用与生态
-生态是开源社区项目的生命力所在。基于 GRT 的应用与生态进行支持、推广，并对完善与提升体验的设计给予奖励：
-	节点程序
-	完整功能的全节点程序
-	更好体验的 PC 轻节点程序
-	提供不需要同步区块链的 Web / Android / iOS 客户端
-	硬件钱包
-	去中心化应用
-	智能基金
-	自动化代币流动性提供者
-	去中心化交易所
-	算力市场
-	GRTGas 市场
-	游戏应用市场：Grt机制性鼓励游戏接入。将为游戏开发者提供接入api。
+// SPDX-License-Identifier: MIT
 
-GRT 的管理模式
-分发机制
-GRT 的分发：
-总发行数量：2000万枚
-初创期私募：500万枚。认购的80%合约锁仓，认购期结束6个月后，开始释放，每6个月释放20%。
-流动挖矿产出：500万，预计10年全部挖出，产出量取决于流动性和市值大小流动性。
-游戏挖矿：900万，在游戏中产生。
-初创技术团队持有：100万枚，用于对技术团队研发，认购期结束6个月后开始释放，分十年释放完毕。
-DAO治理机制
-DAO，全称Decentraized Autonomous Organization，即去中心化自治组织）是指一个围绕共同使命，通过智能合约进行约束，去共同进行创造、获取并分配社区价值的分布式区块链社群组织。
-Grt设计了推广运营机制，完全适用于DAO治理。Grt DAO社区规则由社区制定，不会被中心化组织控制；没有层级结构。同时Grt设计了作为参与条件以及激励机制，来促进DAO的发展等。DAO治理人人皆可参与治理与决策，其最终愿景达到Grt最大共识，最大价值。
-智能合约账本
-GRT 的智能合约可以在运行时通过互操作服务提供的系统函数，获取 GRT的完整账本数据，包括完整的区块和交易，透过这些数据，可以开发出一些有意思的应用，比如自动权益分红、基于智能合约的工作量证明等。
-去中心化：dApp
-智能合约(Smart Contracts) 是在 Ethereum 区块链中所属的对象。它们包含代码函数以及能够与其他合约进行交互、做出决策、保存数据与发送。合约是由创建者所定义，但是它们的运行与他们所提供的服务，都是由 Ethereum 网络本身提供。
-dApp的部份功能目的就是方便终端用户对智能合约的使用，但在这个过程中，GRTContract通过dApp的Web接口，来与dApp的智能合约进行交互。ETH节点为我们提供的 数据库是公开而又安全的， 所有人都能访问到， 并且不用依赖于这个webapp的拥有者。
-每个dapp客户端（浏览器）都与它自己的应用程序实例进行通信。 没有所有客户端连接到的中央服务器。 这意味着，每个想要与dapp交互的人都需要在其计算机运行区块链的完整副本。但它的优势在于不依赖于明天可能会消失的单个中央服务器。
-社区奖励
-LP流动矿池分红：5%；用于LP添加流动池占比，分红。
-薄饼交易买币，推荐上级奖励：5%。
-认购以推广5~10%的奖励。
-游戏应用市场：
-Grt机制性鼓励游戏接入。将为游戏开发者提供接入api。Grt每年会以2~5款游戏上市。
-游戏公会
-游戏公会是网络游戏中的一个团队，是希望通过网络游戏来吸收更多的成员，并且通过大量成员的合作来更好的享受到游戏的内容与乐趣，有很多游戏公会希望可以找带一盈利的方式，使公会建立一个类似公司的运作体制，而这一切又是依托游戏为基础的。
-GRT主要服务游戏，游戏公会可以在游戏的推广组织中获得一定的1~5%奖励。
-跨链互操作协议
-GRT可以让多个参与者在不同的区块链上进行资产交换，并保证整个交易过程中的所有步骤全都成功或全都失败。为了实现这个功能，我们需要利用 GRTContract 的功能，为每一个参与者创建一个合约账户。
-总结
-GRT 是一种结合数字资产、数字身份和智能合约的分布式网络。GRT 系统基于ERC-20等多项技术，成为未来智能经济的基础架构。
+pragma solidity ^0.8.0;
+
+/**
+ * @dev Interface of the ERC20 standard as defined in the EIP.
+ */
+interface IERC20 {
+    /**
+     * @dev Returns the amount of tokens in existence.
+     */
+    function totalSupply() external view returns (uint256);
+
+    /**
+     * @dev Returns the amount of tokens owned by `account`.
+     */
+    function balanceOf(address account) external view returns (uint256);
+
+    /**
+     * @dev Moves `amount` tokens from the caller's account to `recipient`.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * Emits a {Transfer} event.
+     */
+    function transfer(address recipient, uint256 amount) external returns (bool);
+
+    /**
+     * @dev Returns the remaining number of tokens that `spender` will be
+     * allowed to spend on behalf of `owner` through {transferFrom}. This is
+     * zero by default.
+     *
+     * This value changes when {approve} or {transferFrom} are called.
+     */
+    function allowance(address owner, address spender) external view returns (uint256);
+
+    /**
+     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * IMPORTANT: Beware that changing an allowance with this method brings the risk
+     * that someone may use both the old and the new allowance by unfortunate
+     * transaction ordering. One possible solution to mitigate this race
+     * condition is to first reduce the spender's allowance to 0 and set the
+     * desired value afterwards:
+     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+     *
+     * Emits an {Approval} event.
+     */
+    function approve(address spender, uint256 amount) external returns (bool);
+
+    /**
+     * @dev Moves `amount` tokens from `sender` to `recipient` using the
+     * allowance mechanism. `amount` is then deducted from the caller's
+     * allowance.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * Emits a {Transfer} event.
+     */
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint256 amount
+    ) external returns (bool);
+
+    /**
+     * @dev Emitted when `value` tokens are moved from one account (`from`) to
+     * another (`to`).
+     *
+     * Note that `value` may be zero.
+     */
+    event Transfer(address indexed from, address indexed to, uint256 value);
+
+    /**
+     * @dev Emitted when the allowance of a `spender` for an `owner` is set by
+     * a call to {approve}. `value` is the new allowance.
+     */
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+}
